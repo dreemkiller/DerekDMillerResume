@@ -1,0 +1,81 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Derek D. Miller}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{5109 Jacobs Creek Ct.}
+ \moveleft.5\hoffset\centerline{Austin, TX 78749}
+ \moveleft.5\hoffset\centerline{+1.512.695.7998 or +1.512.670.8336}
+
+
+\begin{resume}
+ 
+\section{Summary of Qualifications}  
+
+Professional experience architecting security and content protection solutions for SoC hardware
+Professional experience in Logic Design and hardware validation
+Professional experience in Software Development in C, C++, and perl in Windows and Linux (g++, Visual Studio, gdb) - both tool software and system software
+
+\section{Professional Experience}
+{\sl Security Architect} \hfill September 2010 to June 2012 \\
+	Intel IDG, Austin, TX
+\begin{itemize}
+	\item Designed and oversaw implementation of security architecture of SoCs for the cellphone, tablet, and netbook markets
+	\item Designed and oversaw implementation of media content protection hardware and software for SoCs in the cellphone, tablet and netbook markets
+	\item Managed IP supplier relationships and deliverables
+\end{itemize}
+{\sl Graphics Driver Software Developer} \hfill March 2008 to August 2010 \\
+	Intel Visual Computing Group, Austin, TX
+\begin{itemize}
+	\item Designed and tested a Windows 7 OpenGL driver for a high performance discrete graphics chip
+	\item Designed and debugged elements of a software raasterizer
+	\item Designed and debugged firmware for a multiprocessor, multithreaded SIMD x86 architecture with texture sampling co-processors
+	\begin{itemize}
+		\item Code was a mixture of ANSI C and x86 assembly
+	\end{itemize}
+\end{itemize}
+{\sl Component Design Engineering} \hfill May 2004 to March 2008 \\
+	Intel Chipset Group, Austin, TX
+\begin{itemize}
+	\item Logic Designer (in Verilog) or cryptographic functions for integrated graphics chips, including OMAC and AES
+	\item Developed functional simulators in C++ for HDCP, HDMI, memory paging systems, and various other graphics and media functions
+	\item Developed an asynchronous interrupt validation methodology for the preemptive multitasking of a 3D graphics pipeline
+\end{itemize}
+{\sl CAD Engineer} \hfill December 200 to May 2004 \\
+\begin{itemize}
+	\item Developed RTL simulators (C/C++, Verilog)
+	\item Developed front-end design tools for semiconductor design (C/C++, perl, Verilog) utilizing both internal and vendor APIs
+\end{itemize}
+{\sl Software Developer} \hfill April 2000 to December 2000 \\
+\begin{itemize}
+	\item Developed encryption software for smartcard manufacturing using the IBM 4758 cryptography board nad its API (C/C++)
+\end{itemize}
+{\sl Systems Engineer} \hfill April 1998 to April 2000 \\
+\begin{itemize}
+	\item Developed support and integration software for the Iridium satellite communications system (perl, C, C++)
+	\item Developed satellite simulation software for a 77 satellite constellation
+\end{itemize}
+\section{EDUCATION} 
+{\sl Master of Science,} Circuit Design\\
+                The University of Texas at Austin 
+                December 2006 \\
+
+{\sl Bachelor of Science,} Engineering Physics\\
+                The University of Oklahoma, Norman, OK, 
+                December 1997 \\
+                Concentration: Computer Engineering\\
+\end{resume}
+\end{document}
+
+
+
+
