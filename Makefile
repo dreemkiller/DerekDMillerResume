@@ -5,11 +5,11 @@ PS2PDF=ps2pdf
 
 all: DerekDMillerResume.pdf
 
-DerekDMillerResume.dvi:
+DerekDMillerResume.dvi: DerekDMillerResume.tex
 	$(LATEX) DerekDMillerResume.tex
 	$(LATEX) DerekDMillerResume.tex
 
-DerekDMillerResume.pdf:
+DerekDMillerResume.pdf: DerekDMillerResume.dvi
 	$(DVIPS) DerekDMillerResume.dvi
 	$(PS2PDF) DerekDMillerResume.ps
 
